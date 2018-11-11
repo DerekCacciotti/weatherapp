@@ -1,0 +1,21 @@
+﻿<Properties StartupConfiguration="{C6EE0BDB-20D9-48E7-8F07-7DECABABB418}|Default">
+  <MonoDevelop.Ide.Workbench ActiveDocument="WeatherApp/ViewController.cs">
+    <Files>
+      <File FileName="Weatherdata/WeatherData.cs" Line="139" Column="28" />
+      <File FileName="WeatherApp/Main.storyboard" />
+      <File FileName="WeatherApp/ViewController.cs" Line="42" Column="52" />
+      <File FileName="Weatherdata/Weather.cs" Line="47" Column="7" />
+      <File FileName="WeatherApp/Location/LocationManager.cs" Line="59" Column="1" />
+      <File FileName="WeatherApp/Location/LocationUpdatedEventArgs.cs" Line="19" Column="6" />
+      <File FileName="WeatherApp/Info.plist" />
+      <File FileName="WeatherApp/AppDelegate.cs" Line="47" Column="49" />
+    </Files>
+  </MonoDevelop.Ide.Workbench>
+  <MonoDevelop.Ide.Workspace ActiveConfiguration="Debug|iPhoneSimulator" />
+  <MonoDevelop.Ide.DebuggingService.Breakpoints>
+    <BreakpointStore />
+  </MonoDevelop.Ide.DebuggingService.Breakpoints>
+  <MonoDevelop.Ide.DebuggingService.PinnedWatches />
+  <MonoDevelop.Ide.ItemProperties.WeatherApp PreferredExecutionTarget="MonoDevelop.IPhone.IPhoneSimulatorTarget.D4585909-B463-4245-9000-CE92AD759D5A" automaticSigning="False" />
+  <MultiItemStartupConfigurations />
+</Properties>

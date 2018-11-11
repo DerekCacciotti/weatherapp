@@ -1,0 +1,25 @@
+Function=xamarin_timezone_get_data
+	/Users/derekcacciotti/Projects/WeatherApp/WeatherApp/obj/iPhone/Debug/device-builds/iphone10.3-12.1/mtouch-cache/1-Link/mscorlib.dll
+Function=xamarin_GetFolderPath
+	/Users/derekcacciotti/Projects/WeatherApp/WeatherApp/obj/iPhone/Debug/device-builds/iphone10.3-12.1/mtouch-cache/1-Link/mscorlib.dll
+Function=xamarin_log
+	/Users/derekcacciotti/Projects/WeatherApp/WeatherApp/obj/iPhone/Debug/device-builds/iphone10.3-12.1/mtouch-cache/1-Link/mscorlib.dll
+Function=xamarin_find_protocol_wrapper_type
+	/Users/derekcacciotti/Projects/WeatherApp/WeatherApp/obj/iPhone/Debug/device-builds/iphone10.3-12.1/mtouch-cache/1-Link/Xamarin.iOS.dll
+Function=xamarin_get_block_descriptor
+	/Users/derekcacciotti/Projects/WeatherApp/WeatherApp/obj/iPhone/Debug/device-builds/iphone10.3-12.1/mtouch-cache/1-Link/Xamarin.iOS.dll
+Function=UIApplicationMain
+	/Users/derekcacciotti/Projects/WeatherApp/WeatherApp/obj/iPhone/Debug/device-builds/iphone10.3-12.1/mtouch-cache/1-Link/Xamarin.iOS.dll
+Function=xamarin_start_wwan
+	/Users/derekcacciotti/Projects/WeatherApp/WeatherApp/obj/iPhone/Debug/device-builds/iphone10.3-12.1/mtouch-cache/1-Link/System.dll
+Function=CreateZStream
+	/Users/derekcacciotti/Projects/WeatherApp/WeatherApp/obj/iPhone/Debug/device-builds/iphone10.3-12.1/mtouch-cache/1-Link/System.dll
+Function=CloseZStream
+	/Users/derekcacciotti/Projects/WeatherApp/WeatherApp/obj/iPhone/Debug/device-builds/iphone10.3-12.1/mtouch-cache/1-Link/System.dll
+Function=Flush
+	/Users/derekcacciotti/Projects/WeatherApp/WeatherApp/obj/iPhone/Debug/device-builds/iphone10.3-12.1/mtouch-cache/1-Link/System.dll
+Function=ReadZStream
+	/Users/derekcacciotti/Projects/WeatherApp/WeatherApp/obj/iPhone/Debug/device-builds/iphone10.3-12.1/mtouch-cache/1-Link/System.dll
+Function=WriteZStream
+	/Users/derekcacciotti/Projects/WeatherApp/WeatherApp/obj/iPhone/Debug/device-builds/iphone10.3-12.1/mtouch-cache/1-Link/System.dll
+Function=mono_pmip

@@ -1,0 +1,12 @@
+/Users/derekcacciotti/Projects/WeatherApp/Weatherdata/bin/Debug/Weatherdata.dll
+/Users/derekcacciotti/Projects/WeatherApp/Weatherdata/bin/Debug/Weatherdata.pdb
+/Users/derekcacciotti/Projects/WeatherApp/Weatherdata/bin/Debug/Newtonsoft.Json.dll
+/Users/derekcacciotti/Projects/WeatherApp/Weatherdata/bin/Debug/RestSharp.dll
+/Users/derekcacciotti/Projects/WeatherApp/Weatherdata/bin/Debug/RestSharp.xml
+/Users/derekcacciotti/Projects/WeatherApp/Weatherdata/bin/Debug/Newtonsoft.Json.xml
+/Users/derekcacciotti/Projects/WeatherApp/Weatherdata/obj/Debug/optimized/
+/Users/derekcacciotti/Projects/WeatherApp/Weatherdata/obj/Debug/Weatherdata.csproj.CoreCompileInputs.cache
+/Users/derekcacciotti/Projects/WeatherApp/Weatherdata/obj/Debug/Weatherdata.csproj.CopyComplete
+/Users/derekcacciotti/Projects/WeatherApp/Weatherdata/obj/Debug/Weatherdata.dll
+/Users/derekcacciotti/Projects/WeatherApp/Weatherdata/obj/Debug/Weatherdata.pdb
+/Users/derekcacciotti/Projects/WeatherApp/Weatherdata/obj/Debug/Weatherdata.csprojAssemblyReference.cache
