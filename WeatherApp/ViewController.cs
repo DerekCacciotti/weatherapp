@@ -8,11 +8,12 @@ using CoreAnimation;
 using Foundation;
 namespace WeatherApp
 {
-    public partial class ViewController : UIViewController
+    public partial class ViewController : UIViewController, IUISearchResultsUpdating
     {
 
         private WeatherData data = new WeatherData();
         private Weather weather = new Weather();
+        private bool isUsingZipCode = false;
 
         public static LocationManager Manager { get; set; }
 
@@ -27,11 +28,36 @@ namespace WeatherApp
             // Perform any additional setup after loading the view, typically from a nib.
             //data.GetWeatherDataForCity("voorheesville");
             // this.View.BackgroundColor = UIColor.Blue;
+            var search = new UISearchController(searchResultsController: null)
+            {
+                DimsBackgroundDuringPresentation = false
+            };
+
+            var searchdelegate = new UISearchBarDelegate();
+
+
+            // ensures the segue works in the context of the underling ViewController, thanks @artemkalinovsky
+            DefinesPresentationContext = true;
+
+            NavigationItem.SearchController = search;
+            search.SearchResultsUpdater = this;
             Manager = new LocationManager();
+            search.SearchBar.Hidden = true;
+
+            search.SearchBar.Delegate = searchdelegate;
+
+            search.SearchBar.Placeholder = "Enter a City Name or a Zip Code";
+
+           
 
 
 
-     if(Manager.DoesHaveAccesstoLocation())
+
+
+
+
+
+            if (Manager.DoesHaveAccesstoLocation())
             {
                 Manager.StartLocationUpdates();
                 double lat = Convert.ToDouble(Manager.LocMgr.Location.Coordinate.Latitude);
@@ -70,7 +96,7 @@ namespace WeatherApp
             }
 
 
-           
+
 
 
 
@@ -150,29 +176,59 @@ namespace WeatherApp
                 emoji = "☁";
                 return emoji;
             }
-            else if(desc.Contains("sun") || desc.Contains("sunny"))
+            else if (desc.Contains("sun") || desc.Contains("sunny"))
             {
                 emoji = "☀️";
             }
-            else if(desc.Contains("rain") || desc.Contains("showers") ||desc.Contains("rainny"))
+            else if (desc.Contains("rain") || desc.Contains("showers") || desc.Contains("rainny"))
             {
                 emoji = "🌧️";
             }
 
-            else if(desc.Contains("snow") || desc.Contains("flurries") || desc.Contains("snow showers"))
+            else if (desc.Contains("snow") || desc.Contains("flurries") || desc.Contains("snow showers"))
             {
                 emoji = "🌨️";
             }
 
             return null;
 
-           
+
         }
 
         partial void searchtapped(UIBarButtonItem sender)
         {
-            Debug.WriteLine("search tapped");
+            NavigationItem.SearchController.SearchBar.Hidden = false;
+
+        }
+
+        public void UpdateSearchResultsForSearchController(UISearchController searchController)
+        {
+
+            if(searchController.SearchBar.Text != string.Empty)
+            {
+                if (char.IsDigit(searchController.SearchBar.Text[0]))
+                { 
+                    // check for length of string for zip 
+
+                    // rest call 
+
+
+                    isUsingZipCode = true;
+                    Debug.WriteLine("numbers");
+                }
+                else
+                {
+                    isUsingZipCode = false;
+                }
+
+            }
+            else
+            {
+                Debug.WriteLine("nothing");
+            }
+
         }
     }
-
 }
+
+

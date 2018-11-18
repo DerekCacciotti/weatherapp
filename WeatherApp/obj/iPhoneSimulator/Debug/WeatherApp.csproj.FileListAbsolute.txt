@@ -16,3 +16,4 @@
 /Users/derekcacciotti/Projects/WeatherApp/WeatherApp/obj/iPhoneSimulator/Debug/device-builds/iphone11.4-12.1/coremlc/_PartialAppManifest.items
 /Users/derekcacciotti/Projects/WeatherApp/WeatherApp/obj/iPhoneSimulator/Debug/device-builds/iphone11.4-12.1/coremlc/_BundleResourceWithLogicalName.items
 /Users/derekcacciotti/Projects/WeatherApp/WeatherApp/obj/iPhoneSimulator/Debug/device-builds/iphone11.4-12.1/optimized/
+/Users/derekcacciotti/Projects/WeatherApp/WeatherApp/obj/iPhoneSimulator/Debug/WeatherApp.csprojAssemblyReference.cache
